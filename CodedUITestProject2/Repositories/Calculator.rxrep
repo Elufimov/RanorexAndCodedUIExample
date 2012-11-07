@@ -1,0 +1,148 @@
+﻿<repository name="Calculator" id="bd784ba5-7f75-4692-857b-4c1606607be7" rxversion="3.3.3.19655">
+	<codegen classname="Calculator" namespace="Example1.Repositories"/>
+	<rootfolder name="Root" id="5edecf32-9ef0-4d19-9f4e-a8ad7426c15e" searchtimeout="30000ms" capname="host" isrooted="True" usecache="False">
+		<appfolder name="MainForm" id="6df0051a-f557-47f9-9fa6-ef9a6f73071f" searchtimeout="30000ms" capname="form" addcaps="form,nativewindow" isrooted="True" usecache="True">
+			<folder name="Titlebar" id="68444017-2c40-4899-b007-403bc57016ce" searchtimeout="30000ms" capname="titlebar" addcaps="titlebar,accessible" isrooted="True" usecache="True">
+				<item name="CloseButton" id="2593a4e0-c5f8-402c-9126-20fe17f9b4ae" searchtimeout="30000ms" capname="button" addcaps="button,accessible">
+					/form[@class='CalcFrame']/titlebar/button[@accessiblename='&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100;']
+				</item>
+				<item name="ExpandButton" id="91b139f0-b7f9-4b75-996f-3c7fb11ae489" searchtimeout="30000ms" capname="button" addcaps="button,accessible">
+					/form[@class='CalcFrame']/titlebar/button[@accessiblename='&#1056;&#1072;&#1079;&#1074;&#1077;&#1088;&#1085;&#1091;&#1090;&#1100;']
+				</item>
+				<item name="CollapseButton" id="a348ceb3-4285-4246-a16c-951815502934" searchtimeout="30000ms" capname="button" addcaps="button,accessible">
+					/form[@class='CalcFrame']/titlebar/button[@accessiblename='&#1057;&#1074;&#1077;&#1088;&#1085;&#1091;&#1090;&#1100;']
+				</item>
+				<basepath>
+					/form[@class='CalcFrame']/titlebar
+				</basepath>
+			</folder>
+			<folder name="Menubar" id="1b145dfb-af19-4e49-b27d-4af3a04a30d1" searchtimeout="30000ms" capname="menubar" addcaps="menubar,accessible" isrooted="True" usecache="True">
+				<item name="ViewButton" id="77be3b48-87e6-4ff3-808a-bf196d64a7ab" searchtimeout="30000ms" capname="menuitem" addcaps="menuitem,accessible">
+					/form[@class='CalcFrame']/menubar[@accessiblename='&#1055;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077;']/menuitem[@accessiblename='&#1042;&#1080;&#1076;']
+				</item>
+				<item name="CorrectionButton" id="39c4cce2-b818-41eb-a728-cdf56818ccd2" searchtimeout="30000ms" capname="menuitem" addcaps="menuitem,accessible">
+					/form[@class='CalcFrame']/menubar[@accessiblename='&#1055;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077;']/menuitem[@accessiblename='&#1055;&#1088;&#1072;&#1074;&#1082;&#1072;']
+				</item>
+				<item name="InformationButton" id="7465779d-1572-4c0d-9737-676a4595d42d" searchtimeout="30000ms" capname="menuitem" addcaps="menuitem,accessible">
+					/form[@class='CalcFrame']/menubar[@accessiblename='&#1055;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077;']/menuitem[@accessiblename='&#1057;&#1087;&#1088;&#1072;&#1074;&#1082;&#1072;']
+				</item>
+				<basepath>
+					/form[@class='CalcFrame']/menubar[@accessiblename='&#1055;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077;']
+				</basepath>
+			</folder>
+			<folder name="Calculator" id="33f308be-6c49-4a1f-a914-9d1374dc4baa" searchtimeout="30000ms" capname="unknown" isrooted="True" usecache="True">
+				<item name="ResultInput" id="ef8e2b51-dca9-4d76-b52c-b8a6ec2be16b" searchtimeout="30000ms" capname="text">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']/container[@windowextendedstyle~'ToolWindow']/text[@windowtext!='']
+				</item>
+				<item name="MCButton" id="237902d6-a3f9-4d29-b573-4e09f19dee31" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1054;&#1095;&#1080;&#1089;&#1090;&#1082;&#1072; &#1087;&#1072;&#1084;&#1103;&#1090;&#1080;']
+				</item>
+				<item name="BackspaceButton" id="c3ee237c-3499-4d03-bc40-961108ce44df" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='Backspace']
+				</item>
+				<item name="N7Button" id="9d6cbc5b-135c-4d70-be9e-337230ce6d67" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='7']
+				</item>
+				<item name="N4Button" id="61bea1b2-71b9-4c31-999f-0b45337e2670" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='4']
+				</item>
+				<item name="N1Button" id="1e421129-268e-4af7-a763-7d2c1b9ce0b9" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='1']
+				</item>
+				<item name="N0Button" id="e888eeed-02f1-42e7-aa86-4ec00508adec" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='0']
+				</item>
+				<item name="MRButton" id="47b51ec1-6153-419c-b6b6-786c6a24f54f" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1042;&#1099;&#1079;&#1086;&#1074; &#1080;&#1079; &#1087;&#1072;&#1084;&#1103;&#1090;&#1080;']
+				</item>
+				<item name="CEButton" id="2af6023b-593d-4bc7-ad7e-02f182dd2c82" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1054;&#1095;&#1080;&#1089;&#1090;&#1082;&#1072; &#1079;&#1072;&#1087;&#1080;&#1089;&#1080;']
+				</item>
+				<item name="N8Button" id="b9275f55-a908-4639-9487-f3136dfa3a08" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='8']
+				</item>
+				<item name="N5Button" id="6d54b3d0-a8ac-41fe-9aaa-7e1d6ffac5aa" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='5']
+				</item>
+				<item name="N2Button" id="2f885d89-c825-449a-96e8-9f0ddafc2eee" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='2']
+				</item>
+				<item name="MSButton" id="5722a027-a98f-437a-838b-04008e9d306d" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1077;&#1085;&#1080;&#1077; &#1074; &#1087;&#1072;&#1084;&#1103;&#1090;&#1080;']
+				</item>
+				<item name="CButton" id="ee27716d-cae3-4f13-96a5-b5d7c8d70562" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1054;&#1095;&#1080;&#1089;&#1090;&#1080;&#1090;&#1100;']
+				</item>
+				<item name="N9Button" id="2b366382-40b9-40a8-89a0-13a0bbe17004" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='9']
+				</item>
+				<item name="N6Button" id="d5dd637c-caeb-49e3-8c83-a843705d8845" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='6']
+				</item>
+				<item name="N3Button" id="88a71068-45b3-420e-9a32-71019e312ea4" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='3']
+				</item>
+				<item name="DecimalSeparatorButton" id="391852a4-519f-48b8-9f50-8295243b6a37" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1044;&#1077;&#1089;&#1103;&#1090;&#1080;&#1095;&#1085;&#1099;&#1081; &#1088;&#1072;&#1079;&#1076;&#1077;&#1083;&#1080;&#1090;&#1077;&#1083;&#1100;']
+				</item>
+				<item name="MPlusButton" id="2905ca60-9865-4f01-9e87-f3c5932b27e6" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1044;&#1086;&#1073;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077; &#1087;&#1072;&#1084;&#1103;&#1090;&#1080;']
+				</item>
+				<item name="PlusMinusButton" id="ad0d9f24-f53e-4c09-b1f4-24a246bed717" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1059;&#1085;&#1072;&#1088;&#1085;&#1099;&#1081; &#1084;&#1080;&#1085;&#1091;&#1089;']
+				</item>
+				<item name="DivisionButton" id="0e728110-5cef-4fde-becd-d5b22c20c107" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1044;&#1077;&#1083;&#1077;&#1085;&#1080;&#1077;']
+				</item>
+				<item name="MultiplicationButton" id="d3a3938b-5517-42d1-a5c7-52129e9d4242" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1059;&#1084;&#1085;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077;']
+				</item>
+				<item name="SubtractionButton" id="61d1aaad-fcf3-467d-9479-f2c7cca6a79f" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1042;&#1099;&#1095;&#1080;&#1090;&#1072;&#1085;&#1080;&#1077;']
+				</item>
+				<item name="AdditionButton" id="7b897f38-0ff3-476a-8e37-300c49bfeb43" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1057;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077;']
+				</item>
+				<item name="MMinusButton" id="4e822ec6-bb36-4cf2-a756-7363ebe10141" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1042;&#1099;&#1095;&#1080;&#1090;&#1072;&#1085;&#1080;&#1077; &#1087;&#1072;&#1084;&#1103;&#1090;&#1080;']
+				</item>
+				<item name="SquareRootButton" id="bcfe3d5f-3bce-4e8f-8cac-42022be1bfaf" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1050;&#1074;&#1072;&#1076;&#1088;&#1072;&#1090;&#1085;&#1099;&#1081; &#1082;&#1086;&#1088;&#1077;&#1085;&#1100;']
+				</item>
+				<item name="PercentButton" id="f5bc3be4-2902-4cd9-a095-a2a8a29563b0" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1055;&#1088;&#1086;&#1094;&#1077;&#1085;&#1090;']
+				</item>
+				<item name="ReciprocalButton" id="68573099-52eb-4853-b45e-a2641e6e6bf0" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1054;&#1073;&#1088;&#1072;&#1090;&#1085;&#1072;&#1103; &#1074;&#1077;&#1083;&#1080;&#1095;&#1080;&#1085;&#1072;']
+				</item>
+				<item name="EquallyButton" id="5bb1d296-a858-46dd-a8d1-db7f956e5896" searchtimeout="30000ms" capname="button" addcaps="button,nativewindow">
+					/form[@class='CalcFrame']/element[@class='CalcFrame']//button[@accessiblename='&#1056;&#1072;&#1074;&#1085;&#1086;']
+				</item>
+				<basepath>
+					/form[@class='CalcFrame']/element[@class='CalcFrame']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@class='CalcFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKDSURBVDhPdZPrT9NgFMbx7/KLgopoRBM1xpAY
+o1ETQoyI9xgxkkBMCDenqCHjljFuY5EoZoLuAoRtsLENkeAC7dttbDBh3dZu3eh4fNuBX4pNnjxv
+P5zfeU7fnpKS/afOvNR0z7TE3x0NoHrYj9tGH24YvLjWt4CqbjeudDlx6cMMLuispLJt8slB3T+v
+HfvJczsiVrfSCFKx21mEeAlcQgJDz7/jIpZjKfyiOtf8lWgAtDvM/gjk8QoUTEcPl/kYDAshnH39
+BRqAEn3MvwExX8BuYQ8pqYBoSkbwTx7eiAQ7k4WQk9Hv5nCm8ZMWUDMSgIkCMhQg5vcQF2QwO7sI
+RHOYJVlYghmkJRm9FHD61ZgWUD3kx6ivmCCRKdD5d7GylYc7JOH7WgbjKyJNJaPHTVBeP6IF3Bn0
+qQCli0AhqnIFpGlsRUpxMiuj20Vw6rlRC7hlXMQwBXS5wuic5fCO6u00gW6aRYedRbuNQZttHXon
+wcmnBi3gJr1zNpGDO5KBnRWo0rCxKViZJKzrSToGj4nVbbi5JE486tMCrvd7sEYBNUMezIYE1Z0H
+zqXUd0swARdJouxBjxag/HFLWxIdYxMGTwwD3hiM3igG92VajGKKppgPpVB6X68FVPXMYy4sotUe
+xnY8jhYbp7rOUfSBhTD4jiMIxMTDAVf1LliJiIZJgmcTDF5aWDROETT/IGi3Ewx5NpDsKMHyZuZw
+gLIsk4yAxxOs2rHuM6N6vaXoemcxgT/2H8DljzO8jaMjOMJooWO0T4ehmwnj/VwEXc4I/S4bcBAB
+vqiI47V6XrMLFzsdTeffWPnK1m/qslQ0mFH+Yli987KHvWpsRUpxaa2+6QDwF1fdalmXFOpgAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>
